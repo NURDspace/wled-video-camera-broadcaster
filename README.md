@@ -1,12 +1,13 @@
 # wled-video-camera-broadcaster
 This Python script allows users to stream video content from a file or webcam directly to a WLED device. It also displays the video content in a GUI for visual reference. The script is designed for a 2D 6x26 pixel LED panel, but it can be adjusted for different setups.
-Features
 
-    Stream video files or webcam footage in real time to a WLED device.
-    Display the current video frame being streamed in a graphical user interface.
-    Control the video stream with options to start and stop.
+# Features
 
-Requirements
+Stream video files or webcam footage in real time to a WLED device.
+Display the current video frame being streamed in a graphical user interface.
+Control the video stream with options to start and stop.
+
+# Requirements
 
     Python 3
     OpenCV
@@ -17,7 +18,6 @@ Requirements
 These can be installed via pip:
 
 bash
-
 pip install opencv-python numpy pillow
 
 Usage
